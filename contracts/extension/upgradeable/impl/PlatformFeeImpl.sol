@@ -3,8 +3,8 @@ pragma solidity ^0.8.0;
 
 import "../PlatformFee.sol";
 
-import "../../interface/IPermissions.sol";
-import "../../interface/IERC2771Context.sol";
+import "../../interfaces/IPermissions.sol";
+import "../../interfaces/IERC2771Context.sol";
 
 contract PlatformFeeImpl is PlatformFee {
     bytes32 private constant DEFAULT_ADMIN_ROLE = 0x00;

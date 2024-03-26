@@ -20,7 +20,7 @@ import "./BaseAccountFactory.sol";
 import { AccountExtension } from "./AccountExtension.sol";
 import "../../../external-deps/openzeppelin/utils/cryptography/ECDSA.sol";
 
-import "../interface/IAccountCore.sol";
+import "../interfaces/IAccountCore.sol";
 
 //   $$\     $$\       $$\                 $$\                         $$\
 //   $$ |    $$ |      \__|                $$ |                        $$ |

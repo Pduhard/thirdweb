@@ -5,10 +5,10 @@ pragma solidity ^0.8.11;
 
 import "../external-deps/openzeppelin/security/ReentrancyGuard.sol";
 import "../external-deps/openzeppelin/utils/math/SafeMath.sol";
-import "../eip/interface/IERC20.sol";
+import "../eip/interfaces/IERC20.sol";
 import { CurrencyTransferLib } from "../lib/CurrencyTransferLib.sol";
 
-import "./interface/IStaking20.sol";
+import "./interfaces/IStaking20.sol";
 
 abstract contract Staking20 is ReentrancyGuard, IStaking20 {
     /*///////////////////////////////////////////////////////////////

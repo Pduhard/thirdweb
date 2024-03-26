@@ -8,8 +8,8 @@ import "../extension/Multicall.sol";
 import "../extension/Ownable.sol";
 import "../extension/Staking20.sol";
 
-import "../eip/interface/IERC20.sol";
-import "../eip/interface/IERC20Metadata.sol";
+import "../eip/interfaces/IERC20.sol";
+import "../eip/interfaces/IERC20Metadata.sol";
 
 import { CurrencyTransferLib } from "../lib/CurrencyTransferLib.sol";
 

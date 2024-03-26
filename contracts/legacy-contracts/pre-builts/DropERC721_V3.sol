@@ -17,15 +17,15 @@ import "@openzeppelin/contracts-upgradeable/utils/StringsUpgradeable.sol";
 
 //  ==========  Internal imports    ==========
 
-import { IDropERC721_V3 } from "../interface/drop/IDropERC721_V3.sol";
-import "../../infra/interface/IThirdwebContract.sol";
+import { IDropERC721_V3 } from "../interfaces/drop/IDropERC721_V3.sol";
+import "../../infra/interfaces/IThirdwebContract.sol";
 
 //  ==========  Features    ==========
 
-import "../../extension/interface/IPlatformFee.sol";
-import "../../extension/interface/IPrimarySale.sol";
-import "../../extension/interface/IRoyalty.sol";
-import "../../extension/interface/IOwnable.sol";
+import "../../extension/interfaces/IPlatformFee.sol";
+import "../../extension/interfaces/IPrimarySale.sol";
+import "../../extension/interfaces/IRoyalty.sol";
+import "../../extension/interfaces/IOwnable.sol";
 
 import "../../external-deps/openzeppelin/metatx/ERC2771ContextUpgradeable.sol";
 

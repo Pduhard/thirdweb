@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity ^0.8.12;
 
-import "../interface/IEntrypoint.sol";
+import "../interfaces/IEntrypoint.sol";
 
 /**
  * nonce management functionality

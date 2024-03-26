@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 /// @author thirdweb
 
 import "../lib/Address.sol";
-import "./interface/IMulticall.sol";
+import "./interfaces/IMulticall.sol";
 
 /**
  * @dev Provides a function to batch together multiple calls in a single external call.

@@ -3,7 +3,7 @@
 
 pragma solidity ^0.8.0;
 
-import "../../../../eip/interface/IERC1155Receiver.sol";
+import "../../../../eip/interfaces/IERC1155Receiver.sol";
 import "../../../../eip/ERC165.sol";
 
 /**

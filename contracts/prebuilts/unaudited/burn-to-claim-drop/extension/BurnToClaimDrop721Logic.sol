@@ -17,10 +17,10 @@ import { BurnToClaimDrop721Storage } from "./BurnToClaimDrop721Storage.sol";
 import "../../../../lib/Strings.sol";
 import "../../../../lib/CurrencyTransferLib.sol";
 
-import { IERC2981 } from "../../../../eip/interface/IERC2981.sol";
+import { IERC2981 } from "../../../../eip/interfaces/IERC2981.sol";
 import { Context, ERC721AUpgradeable, ERC721AStorage } from "../../../../eip/ERC721AUpgradeable.sol";
 
-import { IERC2771Context } from "../../../../extension/interface/IERC2771Context.sol";
+import { IERC2771Context } from "../../../../extension/interfaces/IERC2771Context.sol";
 
 import { ERC2771ContextUpgradeable } from "../../../../extension/upgradeable/ERC2771ContextUpgradeable.sol";
 import { DelayedReveal } from "../../../../extension/upgradeable/DelayedReveal.sol";

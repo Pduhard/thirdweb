@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: Apache-2.0
 pragma solidity ^0.8.0;
 
-import "./interface/INFTMetadata.sol";
+import "./interfaces/INFTMetadata.sol";
 
 abstract contract NFTMetadata is INFTMetadata {
     /// @dev The sender is not authorized to perform the action

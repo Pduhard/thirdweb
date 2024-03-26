@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 /// @author thirdweb
 
-import "../interface/IPrimarySale.sol";
+import "../interfaces/IPrimarySale.sol";
 
 library PrimarySaleStorage {
     /// @custom:storage-location erc7201:extension.manager.storage

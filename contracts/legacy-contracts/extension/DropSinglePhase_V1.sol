@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 /// @author thirdweb
 
-import "./interface/IDropSinglePhase_V1.sol";
+import "./interfaces/IDropSinglePhase_V1.sol";
 import "../../lib/MerkleProof.sol";
 import "../../lib/BitMaps.sol";
 

@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 /// @author thirdweb
 
-import "../interface/IOperatorFilterRegistry.sol";
+import "../interfaces/IOperatorFilterRegistry.sol";
 import "./OperatorFilterToggle.sol";
 
 abstract contract OperatorFiltererUpgradeable is OperatorFilterToggle {

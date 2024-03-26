@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 /// @author thirdweb
 
-import "../interface/IRoyalty.sol";
+import "../interfaces/IRoyalty.sol";
 
 library RoyaltyStorage {
     /// @custom:storage-location erc7201:royalty.storage

@@ -4,7 +4,7 @@
 
 pragma solidity ^0.8.4;
 
-import "./interface/IERC721A.sol";
+import "./interfaces/IERC721A.sol";
 import "../external-deps/openzeppelin/token/ERC721/IERC721Receiver.sol";
 import "../lib/Address.sol";
 import "../external-deps/openzeppelin/utils/Context.sol";

@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 /// @author thirdweb
 
 import "./PlatformFeeStorage.sol";
-import "../interface/IPlatformFee.sol";
+import "../interfaces/IPlatformFee.sol";
 
 /**
  *  @author  thirdweb.com

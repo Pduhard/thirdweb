@@ -13,7 +13,7 @@ pragma solidity ^0.8.11;
 //    \____/ \__|  \__|\__|\__|       \_______| \_____\____/  \_______|\_______/
 
 // Base
-import "../../infra/interface/IThirdwebContract.sol";
+import "../../infra/interfaces/IThirdwebContract.sol";
 
 // Governance
 import "@openzeppelin/contracts-upgradeable/governance/GovernorUpgradeable.sol";

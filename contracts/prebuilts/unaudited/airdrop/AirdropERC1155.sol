@@ -20,7 +20,7 @@ import "../../../extension/Multicall.sol";
 
 //  ==========  Internal imports    ==========
 
-import "../../interface/airdrop/IAirdropERC1155.sol";
+import "../../interfaces/airdrop/IAirdropERC1155.sol";
 import "../../../external-deps/openzeppelin/metatx/ERC2771ContextUpgradeable.sol";
 
 //  ==========  Features    ==========

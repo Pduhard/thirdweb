@@ -11,7 +11,7 @@ import "../extension/Ownable.sol";
 import "../extension/Royalty.sol";
 import "../extension/BatchMintMetadata.sol";
 import "../extension/LazyMint.sol";
-import "../extension/interface/IClaimableERC1155.sol";
+import "../extension/interfaces/IClaimableERC1155.sol";
 
 import "../lib/Strings.sol";
 import "../external-deps/openzeppelin/security/ReentrancyGuard.sol";

@@ -13,13 +13,13 @@ pragma solidity ^0.8.11;
 //    \____/ \__|  \__|\__|\__|       \_______| \_____\____/  \_______|\_______/
 
 // Interface
-import { ITokenERC721 } from "../interface/token/ITokenERC721.sol";
+import { ITokenERC721 } from "../interfaces/token/ITokenERC721.sol";
 
-import "../../infra/interface/IThirdwebContract.sol";
-import "../../extension/interface/IPlatformFee.sol";
-import "../../extension/interface/IPrimarySale.sol";
-import "../../extension/interface/IRoyalty.sol";
-import "../../extension/interface/IOwnable.sol";
+import "../../infra/interfaces/IThirdwebContract.sol";
+import "../../extension/interfaces/IPlatformFee.sol";
+import "../../extension/interfaces/IPrimarySale.sol";
+import "../../extension/interfaces/IRoyalty.sol";
+import "../../extension/interfaces/IOwnable.sol";
 
 //Extensions
 import "../../extension/NFTMetadata.sol";

@@ -5,7 +5,7 @@ pragma solidity ^0.8.11;
 
 import "@openzeppelin/contracts/utils/structs/EnumerableSet.sol";
 
-import "../../interface/ITWMultichainRegistry.sol";
+import "../../interfaces/ITWMultichainRegistry.sol";
 
 library TWMultichainRegistryStorage {
     /// @custom:storage-location erc7201:multichain.registry.storage

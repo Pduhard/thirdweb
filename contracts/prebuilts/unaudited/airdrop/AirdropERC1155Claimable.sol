@@ -20,7 +20,7 @@ import { Multicall } from "../../../extension/Multicall.sol";
 
 //  ==========  Internal imports    ==========
 
-import "../../interface/airdrop/IAirdropERC1155Claimable.sol";
+import "../../interfaces/airdrop/IAirdropERC1155Claimable.sol";
 
 //  ==========  Features    ==========
 

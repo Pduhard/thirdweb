@@ -26,7 +26,7 @@ import "../../external-deps/chainlink/VRFV2WrapperConsumerBase.sol";
 
 //  ==========  Internal imports    ==========
 
-import "../interface/IPackVRFDirect.sol";
+import "../interfaces/IPackVRFDirect.sol";
 import "../../extension/Multicall.sol";
 import "../../external-deps/openzeppelin/metatx/ERC2771ContextUpgradeable.sol";
 

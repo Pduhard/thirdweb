@@ -10,7 +10,7 @@ import "../extension/Multicall.sol";
 import "../extension/Ownable.sol";
 import "../extension/PrimarySale.sol";
 import "../extension/DropSinglePhase.sol";
-import "../extension/interface/IBurnableERC20.sol";
+import "../extension/interfaces/IBurnableERC20.sol";
 
 import { CurrencyTransferLib } from "../lib/CurrencyTransferLib.sol";
 

@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 /// @author thirdweb
 
-import "./interface/IContractMetadata.sol";
+import "./interfaces/IContractMetadata.sol";
 
 /**
  *  @title   Contract Metadata

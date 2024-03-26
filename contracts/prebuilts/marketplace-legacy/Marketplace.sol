@@ -29,7 +29,7 @@ import "@openzeppelin/contracts-upgradeable/security/ReentrancyGuardUpgradeable.
 
 //  ==========  Internal imports    ==========
 
-import { IMarketplace } from "../interface/marketplace/IMarketplace.sol";
+import { IMarketplace } from "../interfaces/marketplace/IMarketplace.sol";
 
 import "../../external-deps/openzeppelin/metatx/ERC2771ContextUpgradeable.sol";
 

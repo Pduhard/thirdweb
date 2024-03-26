@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 /// @author thirdweb
 
-// [ DEPRECATED CONTRACT: use `contracts/extension/interface/IDelayedReveal.sol` instead ]
+// [ DEPRECATED CONTRACT: use `contracts/extension/interfaces/IDelayedReveal.sol` instead ]
 
 /**
  *  Thirdweb's `DelayedReveal` is a contract extension for base NFT contracts. It lets you create batches of

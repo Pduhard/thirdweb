@@ -9,8 +9,8 @@ import "../extension/Ownable.sol";
 import "../extension/Staking1155.sol";
 
 import "../eip/ERC165.sol";
-import "../eip/interface/IERC20.sol";
-import "../eip/interface/IERC1155Receiver.sol";
+import "../eip/interfaces/IERC20.sol";
+import "../eip/interfaces/IERC1155Receiver.sol";
 
 import { CurrencyTransferLib } from "../lib/CurrencyTransferLib.sol";
 

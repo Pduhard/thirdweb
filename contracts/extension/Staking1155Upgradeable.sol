@@ -5,9 +5,9 @@ pragma solidity ^0.8.11;
 
 import "@openzeppelin/contracts-upgradeable/security/ReentrancyGuardUpgradeable.sol";
 import "../external-deps/openzeppelin/utils/math/SafeMath.sol";
-import "../eip/interface/IERC1155.sol";
+import "../eip/interfaces/IERC1155.sol";
 
-import "./interface/IStaking1155.sol";
+import "./interfaces/IStaking1155.sol";
 
 abstract contract Staking1155Upgradeable is ReentrancyGuardUpgradeable, IStaking1155 {
     /*///////////////////////////////////////////////////////////////

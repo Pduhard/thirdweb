@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 /// @author thirdweb
 
-import "../interface/plugin/IRouter.sol";
+import "../interfaces/plugin/IRouter.sol";
 import "../Multicall.sol";
 import "../../eip/ERC165.sol";
 import "../../external-deps/openzeppelin/utils/EnumerableSet.sol";

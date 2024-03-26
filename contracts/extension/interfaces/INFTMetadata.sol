@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: Apache-2.0
 pragma solidity ^0.8.0;
 
-import "../../eip/interface/IERC4906.sol";
+import "../../eip/interfaces/IERC4906.sol";
 
 interface INFTMetadata is IERC4906 {
     /// @dev This event emits when the metadata of all tokens are frozen.

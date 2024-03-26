@@ -20,9 +20,9 @@ import "@solady/src/utils/SafeTransferLib.sol";
 import { Initializable } from "../../../extension/Initializable.sol";
 import { Ownable } from "../../../extension/Ownable.sol";
 
-import "../../../eip/interface/IERC20.sol";
-import "../../../eip/interface/IERC721.sol";
-import "../../../eip/interface/IERC1155.sol";
+import "../../../eip/interfaces/IERC20.sol";
+import "../../../eip/interfaces/IERC721.sol";
+import "../../../eip/interfaces/IERC1155.sol";
 
 contract Airdrop is EIP712, Initializable, Ownable {
     using ECDSA for bytes32;

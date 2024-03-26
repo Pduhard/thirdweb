@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 /// @author thirdweb
 
-import "../interface/IAccountPermissions.sol";
+import "../interfaces/IAccountPermissions.sol";
 import "../../external-deps/openzeppelin/utils/cryptography/EIP712.sol";
 import "../../external-deps/openzeppelin/utils/structs/EnumerableSet.sol";
 

@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 /// @author thirdweb
 
-import "./interface/IDrop.sol";
+import "./interfaces/IDrop.sol";
 import "../lib/MerkleProof.sol";
 
 abstract contract Drop is IDrop {

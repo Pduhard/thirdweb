@@ -19,7 +19,7 @@ import "@openzeppelin/contracts-upgradeable/interfaces/IERC2981Upgradeable.sol";
 
 //  ==========  Internal imports    ==========
 
-import "../interface/IMultiwrap.sol";
+import "../interfaces/IMultiwrap.sol";
 import "../../extension/Multicall.sol";
 import "../../external-deps/openzeppelin/metatx/ERC2771ContextUpgradeable.sol";
 

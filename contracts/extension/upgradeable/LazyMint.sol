@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 /// @author thirdweb
 
-import "../interface/ILazyMint.sol";
+import "../interfaces/ILazyMint.sol";
 import "./BatchMintMetadata.sol";
 
 library LazyMintStorage {

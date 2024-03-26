@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 /// @author thirdweb
 
-import "./interface/IDropSinglePhase1155.sol";
+import "./interfaces/IDropSinglePhase1155.sol";
 import "../lib/MerkleProof.sol";
 
 abstract contract DropSinglePhase1155 is IDropSinglePhase1155 {

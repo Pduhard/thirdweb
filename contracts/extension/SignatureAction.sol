@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 /// @author thirdweb
 
-import "./interface/ISignatureAction.sol";
+import "./interfaces/ISignatureAction.sol";
 import "../external-deps/openzeppelin/utils/cryptography/EIP712.sol";
 
 abstract contract SignatureAction is EIP712, ISignatureAction {

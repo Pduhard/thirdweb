@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 /// @author thirdweb
 
-import "../interface/plugin/IPluginMap.sol";
+import "../interfaces/plugin/IPluginMap.sol";
 import "../../external-deps/openzeppelin/utils/EnumerableSet.sol";
 
 /**

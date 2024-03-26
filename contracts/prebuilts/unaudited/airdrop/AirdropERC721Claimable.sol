@@ -13,14 +13,14 @@ pragma solidity ^0.8.11;
 //    \____/ \__|  \__|\__|\__|       \_______| \_____\____/  \_______|\_______/
 
 //  ==========  External imports    ==========
-import "../../../eip/interface/IERC721.sol";
+import "../../../eip/interfaces/IERC721.sol";
 
 import "@openzeppelin/contracts-upgradeable/security/ReentrancyGuardUpgradeable.sol";
 import "../../../extension/Multicall.sol";
 
 //  ==========  Internal imports    ==========
 
-import "../../interface/airdrop/IAirdropERC721Claimable.sol";
+import "../../interfaces/airdrop/IAirdropERC721Claimable.sol";
 
 //  ==========  Features    ==========
 

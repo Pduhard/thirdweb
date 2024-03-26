@@ -6,8 +6,8 @@ pragma solidity ^0.8.4;
 
 ////////// CHANGELOG: turn `approve` to virtual //////////
 
-import "./interface/IERC721A.sol";
-import "./interface/IERC721Receiver.sol";
+import "./interfaces/IERC721A.sol";
+import "./interfaces/IERC721Receiver.sol";
 import "../lib/Address.sol";
 import "../external-deps/openzeppelin/utils/Context.sol";
 import "../lib/Strings.sol";

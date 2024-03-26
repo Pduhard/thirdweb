@@ -6,12 +6,12 @@ import "../../../extension/Multicall.sol";
 import "../../../external-deps/openzeppelin/proxy/Clones.sol";
 import "../../../external-deps/openzeppelin/utils/structs/EnumerableSet.sol";
 import "../utils/BaseAccount.sol";
-import "../../../extension/interface/IAccountPermissions.sol";
+import "../../../extension/interfaces/IAccountPermissions.sol";
 import "../../../lib/BytesLib.sol";
 
 // Interface
-import "../interface/IEntrypoint.sol";
-import "../interface/IAccountFactory.sol";
+import "../interfaces/IEntrypoint.sol";
+import "../interfaces/IAccountFactory.sol";
 
 //   $$\     $$\       $$\                 $$\                         $$\
 //   $$ |    $$ |      \__|                $$ |                        $$ |

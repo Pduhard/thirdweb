@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 /// @author thirdweb
 
-import "./interface/ITokenBundle.sol";
+import "./interfaces/ITokenBundle.sol";
 import { CurrencyTransferLib } from "../lib/CurrencyTransferLib.sol";
 
 interface IERC165 {

@@ -3,7 +3,7 @@ pragma solidity ^0.8.11;
 
 /// @author thirdweb
 
-import "../../prebuilts/interface/token/ITokenERC721.sol";
+import "../../prebuilts/interfaces/token/ITokenERC721.sol";
 
 interface ISignatureMintERC721_V1 {
     function mintWithSignature(

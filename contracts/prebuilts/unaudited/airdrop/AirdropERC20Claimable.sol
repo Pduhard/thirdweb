@@ -20,7 +20,7 @@ import "../../../extension/Multicall.sol";
 
 //  ==========  Internal imports    ==========
 
-import "../../interface/airdrop/IAirdropERC20Claimable.sol";
+import "../../interfaces/airdrop/IAirdropERC20Claimable.sol";
 
 //  ==========  Features    ==========
 

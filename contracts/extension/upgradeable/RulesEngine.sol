@@ -3,12 +3,12 @@ pragma solidity ^0.8.11;
 
 /// @author thirdweb
 
-import "../interface/IRulesEngine.sol";
+import "../interfaces/IRulesEngine.sol";
 
-import "../../eip/interface/IERC20.sol";
-import "../../eip/interface/IERC20Metadata.sol";
-import "../../eip/interface/IERC721.sol";
-import "../../eip/interface/IERC1155.sol";
+import "../../eip/interfaces/IERC20.sol";
+import "../../eip/interfaces/IERC20Metadata.sol";
+import "../../eip/interfaces/IERC721.sol";
+import "../../eip/interfaces/IERC1155.sol";
 
 import "../../external-deps/openzeppelin/utils/structs/EnumerableSet.sol";
 

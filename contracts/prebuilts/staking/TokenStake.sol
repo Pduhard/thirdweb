@@ -21,14 +21,14 @@ import "../../external-deps/openzeppelin/metatx/ERC2771ContextUpgradeable.sol";
 // Utils
 import "../../extension/Multicall.sol";
 import { CurrencyTransferLib } from "../../lib/CurrencyTransferLib.sol";
-import "../../eip/interface/IERC20Metadata.sol";
+import "../../eip/interfaces/IERC20Metadata.sol";
 
 //  ==========  Features    ==========
 
 import "../../extension/ContractMetadata.sol";
 import "../../extension/PermissionsEnumerable.sol";
 import { Staking20Upgradeable } from "../../extension/Staking20Upgradeable.sol";
-import "../interface/staking/ITokenStake.sol";
+import "../interfaces/staking/ITokenStake.sol";
 
 contract TokenStake is
     Initializable,

@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 /// @author thirdweb
 
-import "../interface/IOperatorFilterToggle.sol";
+import "../interfaces/IOperatorFilterToggle.sol";
 
 library OperatorFilterToggleStorage {
     /// @custom:storage-location erc7201:operator.filter.toggle.storage

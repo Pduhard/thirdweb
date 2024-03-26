@@ -4,8 +4,8 @@ pragma solidity ^0.8.10;
 /// @author thirdweb
 
 import "../lib/NFTMetadataRenderer.sol";
-import "./interface/ISharedMetadata.sol";
-import "../eip/interface/IERC4906.sol";
+import "./interfaces/ISharedMetadata.sol";
+import "../eip/interfaces/IERC4906.sol";
 
 abstract contract SharedMetadata is ISharedMetadata, IERC4906 {
     /// @notice Token metadata information

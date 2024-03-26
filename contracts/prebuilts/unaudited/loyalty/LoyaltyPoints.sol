@@ -13,7 +13,7 @@ pragma solidity ^0.8.11;
 //    \____/ \__|  \__|\__|\__|       \_______| \_____\____/  \_______|\_______/
 
 // Interface
-import "../../interface/ILoyaltyPoints.sol";
+import "../../interfaces/ILoyaltyPoints.sol";
 
 // Base
 import "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol";

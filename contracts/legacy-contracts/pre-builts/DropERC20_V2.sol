@@ -16,14 +16,14 @@ import "../../extension/Multicall.sol";
 
 //  ==========  Internal imports    ==========
 
-import "../../infra/interface/IThirdwebContract.sol";
+import "../../infra/interfaces/IThirdwebContract.sol";
 
 //  ==========  Features    ==========
 
-import "../../extension/interface/IPlatformFee.sol";
-import "../../extension/interface/IPrimarySale.sol";
+import "../../extension/interfaces/IPlatformFee.sol";
+import "../../extension/interfaces/IPrimarySale.sol";
 
-import { IDropERC20_V2 } from "../interface/drop/IDropERC20_V2.sol";
+import { IDropERC20_V2 } from "../interfaces/drop/IDropERC20_V2.sol";
 
 import "../../external-deps/openzeppelin/metatx/ERC2771ContextUpgradeable.sol";
 

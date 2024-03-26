@@ -29,7 +29,7 @@ import "../../lib/CurrencyTransferLib.sol";
 import "../../extension/ContractMetadata.sol";
 import "../../extension/PermissionsEnumerable.sol";
 import { Staking1155Upgradeable } from "../../extension/Staking1155Upgradeable.sol";
-import "../interface/staking/IEditionStake.sol";
+import "../interfaces/staking/IEditionStake.sol";
 
 contract EditionStake is
     Initializable,

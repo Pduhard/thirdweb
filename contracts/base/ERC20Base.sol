@@ -8,8 +8,8 @@ import "../external-deps/openzeppelin/token/ERC20/extensions/ERC20Permit.sol";
 import "../extension/ContractMetadata.sol";
 import "../extension/Multicall.sol";
 import "../extension/Ownable.sol";
-import "../extension/interface/IMintableERC20.sol";
-import "../extension/interface/IBurnableERC20.sol";
+import "../extension/interfaces/IMintableERC20.sol";
+import "../extension/interfaces/IBurnableERC20.sol";
 
 /**
  *  The `ERC20Base` smart contract implements the ERC20 standard.

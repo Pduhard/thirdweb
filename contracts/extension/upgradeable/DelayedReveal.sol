@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 /// @author thirdweb
 
-import "../interface/IDelayedReveal.sol";
+import "../interfaces/IDelayedReveal.sol";
 
 library DelayedRevealStorage {
     /// @custom:storage-location erc7201:delayed.reveal.storage

@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 /// @author thirdweb
 
-import "./interface/IPermissionsEnumerable.sol";
+import "./interfaces/IPermissionsEnumerable.sol";
 import "./Permissions.sol";
 
 /**

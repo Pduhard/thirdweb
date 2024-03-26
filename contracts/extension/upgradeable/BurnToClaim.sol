@@ -6,10 +6,10 @@ pragma solidity ^0.8.0;
 import { ERC1155Burnable } from "@openzeppelin/contracts/token/ERC1155/extensions/ERC1155Burnable.sol";
 import { ERC721Burnable } from "@openzeppelin/contracts/token/ERC721/extensions/ERC721Burnable.sol";
 
-import "../../eip/interface/IERC1155.sol";
-import "../../eip/interface/IERC721.sol";
+import "../../eip/interfaces/IERC1155.sol";
+import "../../eip/interfaces/IERC721.sol";
 
-import "../interface/IBurnToClaim.sol";
+import "../interfaces/IBurnToClaim.sol";
 
 library BurnToClaimStorage {
     /// @custom:storage-location erc7201:burn.to.claim.storage

@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: Apache 2.0
 pragma solidity ^0.8.0;
 
-import "./interface/IERC1155.sol";
-import "./interface/IERC1155Metadata.sol";
-import "./interface/IERC1155Receiver.sol";
+import "./interfaces/IERC1155.sol";
+import "./interfaces/IERC1155Metadata.sol";
+import "./interfaces/IERC1155Receiver.sol";
 
 contract ERC1155 is IERC1155, IERC1155Metadata {
     /*//////////////////////////////////////////////////////////////

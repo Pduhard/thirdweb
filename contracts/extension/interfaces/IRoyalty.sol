@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 /// @author thirdweb
 
-import "../../eip/interface/IERC2981.sol";
+import "../../eip/interfaces/IERC2981.sol";
 
 /**
  *  Thirdweb's `Royalty` is a contract extension to be used with any base contract. It exposes functions for setting and reading

@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 /// @author thirdweb
 
-import "./interface/IAppURI.sol";
+import "./interfaces/IAppURI.sol";
 
 /**
  *  Thirdweb's `AppURI` is a contract extension for any contract

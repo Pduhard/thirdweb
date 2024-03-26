@@ -6,8 +6,8 @@ pragma solidity ^0.8.0;
 import "../external-deps/openzeppelin/token/ERC20/extensions/ERC20Votes.sol";
 
 import "./ERC20Base.sol";
-import "../extension/interface/IMintableERC20.sol";
-import "../extension/interface/IBurnableERC20.sol";
+import "../extension/interfaces/IMintableERC20.sol";
+import "../extension/interfaces/IBurnableERC20.sol";
 
 /**
  *  The `ERC20Vote` smart contract implements the ERC20 standard and ERC20Votes.

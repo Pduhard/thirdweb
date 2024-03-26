@@ -13,8 +13,8 @@ pragma solidity ^0.8.11;
 //    \____/ \__|  \__|\__|\__|       \_______| \_____\____/  \_______|\_______/
 
 import { TWRegistry } from "./TWRegistry.sol";
-import "./interface/IThirdwebContract.sol";
-import "../extension/interface/IContractFactory.sol";
+import "./interfaces/IThirdwebContract.sol";
+import "../extension/interfaces/IContractFactory.sol";
 
 import { AccessControlEnumerable, Context } from "@openzeppelin/contracts/access/AccessControlEnumerable.sol";
 import { ERC2771Context } from "@openzeppelin/contracts/metatx/ERC2771Context.sol";

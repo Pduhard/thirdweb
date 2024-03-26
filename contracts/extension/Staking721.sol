@@ -5,9 +5,9 @@ pragma solidity ^0.8.11;
 
 import "../external-deps/openzeppelin/security/ReentrancyGuard.sol";
 import "../external-deps/openzeppelin/utils/math/SafeMath.sol";
-import "../eip/interface/IERC721.sol";
+import "../eip/interfaces/IERC721.sol";
 
-import "./interface/IStaking721.sol";
+import "./interfaces/IStaking721.sol";
 
 abstract contract Staking721 is ReentrancyGuard, IStaking721 {
     /*///////////////////////////////////////////////////////////////

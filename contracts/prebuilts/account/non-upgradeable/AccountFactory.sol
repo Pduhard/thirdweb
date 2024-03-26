@@ -11,7 +11,7 @@ import "../../../extension/upgradeable//PermissionsEnumerable.sol";
 import "../../../extension/upgradeable//ContractMetadata.sol";
 
 // Interface
-import "../interface/IEntrypoint.sol";
+import "../interfaces/IEntrypoint.sol";
 
 // Smart wallet implementation
 import { Account } from "./Account.sol";

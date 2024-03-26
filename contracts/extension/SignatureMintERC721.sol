@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 /// @author thirdweb
 
-import "./interface/ISignatureMintERC721.sol";
+import "./interfaces/ISignatureMintERC721.sol";
 import "../external-deps/openzeppelin/utils/cryptography/EIP712.sol";
 
 abstract contract SignatureMintERC721 is EIP712, ISignatureMintERC721 {

@@ -12,7 +12,7 @@ pragma solidity ^0.8.11;
 //   \$$$$  |$$ |  $$ |$$ |$$ |      \$$$$$$$ |\$$$$$\$$$$  |\$$$$$$$\ $$$$$$$  |
 //    \____/ \__|  \__|\__|\__|       \_______| \_____\____/  \_______|\_______/
 
-import "../extension/interface/IContractFactory.sol";
+import "../extension/interfaces/IContractFactory.sol";
 
 import "@openzeppelin/contracts/metatx/ERC2771Context.sol";
 import "../extension/Multicall.sol";

@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 /// @author thirdweb
 
-import "./interface/IOperatorFilterToggle.sol";
+import "./interfaces/IOperatorFilterToggle.sol";
 
 abstract contract OperatorFilterToggle is IOperatorFilterToggle {
     bool public operatorRestriction;

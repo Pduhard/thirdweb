@@ -13,11 +13,11 @@ pragma solidity ^0.8.11;
 //    \____/ \__|  \__|\__|\__|       \_______| \_____\____/  \_______|\_______/
 
 //Interface
-import { ITokenERC20 } from "../interface/token/ITokenERC20.sol";
+import { ITokenERC20 } from "../interfaces/token/ITokenERC20.sol";
 
-import "../../infra/interface/IThirdwebContract.sol";
-import "../../extension/interface/IPlatformFee.sol";
-import "../../extension/interface/IPrimarySale.sol";
+import "../../infra/interfaces/IThirdwebContract.sol";
+import "../../extension/interfaces/IPlatformFee.sol";
+import "../../extension/interfaces/IPrimarySale.sol";
 
 // Token
 import "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20BurnableUpgradeable.sol";

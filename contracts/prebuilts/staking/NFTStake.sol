@@ -13,7 +13,7 @@ pragma solidity ^0.8.11;
 //    \____/ \__|  \__|\__|\__|       \_______| \_____\____/  \_______|\_______/
 
 // Token
-import "../../eip/interface/IERC721.sol";
+import "../../eip/interfaces/IERC721.sol";
 import "@openzeppelin/contracts-upgradeable/utils/introspection/ERC165Upgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/token/ERC721/IERC721ReceiverUpgradeable.sol";
 
@@ -29,7 +29,7 @@ import "../../lib/CurrencyTransferLib.sol";
 import "../../extension/ContractMetadata.sol";
 import "../../extension/PermissionsEnumerable.sol";
 import { Staking721Upgradeable } from "../../extension/Staking721Upgradeable.sol";
-import "../interface/staking/INFTStake.sol";
+import "../interfaces/staking/INFTStake.sol";
 
 contract NFTStake is
     Initializable,

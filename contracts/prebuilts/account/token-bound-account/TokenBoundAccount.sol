@@ -23,7 +23,7 @@ import "../utils/BaseAccountFactory.sol";
 import "./erc6551-utils/ERC6551AccountLib.sol";
 import "./erc6551-utils/IERC6551Account.sol";
 
-import "../../../eip/interface/IERC721.sol";
+import "../../../eip/interfaces/IERC721.sol";
 import "../non-upgradeable/Account.sol";
 
 //   $$\     $$\       $$\                 $$\                         $$\

@@ -19,9 +19,9 @@ import "../../../extension/Multicall.sol";
 
 //  ==========  Internal imports    ==========
 
-import "../../interface/airdrop/IAirdropERC20.sol";
+import "../../interfaces/airdrop/IAirdropERC20.sol";
 import { CurrencyTransferLib } from "../../../lib/CurrencyTransferLib.sol";
-import "../../../eip/interface/IERC20.sol";
+import "../../../eip/interfaces/IERC20.sol";
 import "../../../external-deps/openzeppelin/metatx/ERC2771ContextUpgradeable.sol";
 
 //  ==========  Features    ==========

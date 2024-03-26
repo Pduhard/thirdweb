@@ -24,7 +24,7 @@ import { IERC1155Receiver } from "@openzeppelin/contracts/interfaces/IERC1155Rec
 
 //  ==========  Internal imports    ==========
 
-import "../interface/IPack.sol";
+import "../interfaces/IPack.sol";
 import "../../extension/Multicall.sol";
 import "../../external-deps/openzeppelin/metatx/ERC2771ContextUpgradeable.sol";
 

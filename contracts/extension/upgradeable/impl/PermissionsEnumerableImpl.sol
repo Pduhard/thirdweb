@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 /// @author thirdweb
 
-import "../../interface/IERC2771Context.sol";
+import "../../interfaces/IERC2771Context.sol";
 import "../PermissionsEnumerable.sol";
 
 contract PermissionsEnumerableImpl is PermissionsEnumerable {
